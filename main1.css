@@ -1,0 +1,46 @@
+  @font-face {
+    font-family:Mainak;
+  src: url(assets/css/Mainak.ttf);
+  }
+  html{
+  font-size:1em;
+  font-family:Mainak;
+  }
+  .title_bar{
+  background:#f2f2f2;
+  font-family:Mainak;
+  overflow:hidden;
+  }
+
+  .title_right li {
+  float: right;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 2em;
+}
+
+  .title_left {
+  float: left;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1em;
+}
+  .title_right li:hover{
+  background-color: #ddd;
+  color: black;
+  }
+
+  .title_right li.active{
+  background-color: #04AA6D;
+  color: white;
+  }
+  .one{
+  background:#d2f3f0;
+  display:flex;
+
+  }
+  ul{
+    list-style-type: none;
+  }
